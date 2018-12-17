@@ -7,13 +7,113 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		223120421FC5961900B502F9 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 223120411FC5960E00B502F9 /* bg.png */; };
+		225F7FB21FBD70E100933221 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 225F7FB11FBD70E100933221 /* libz.tbd */; };
+		225F80541FBEDE0900933221 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225F80531FBEDDFF00933221 /* UIKit.framework */; };
 		228268021FB5C27500B62854 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228268011FB5C27500B62854 /* AppDelegate.swift */; };
-		228268041FB5C27500B62854 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228268031FB5C27500B62854 /* ViewController.swift */; };
 		228268071FB5C27500B62854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 228268051FB5C27500B62854 /* Main.storyboard */; };
 		228268091FB5C27500B62854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 228268081FB5C27500B62854 /* Assets.xcassets */; };
 		2282680C1FB5C27500B62854 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2282680A1FB5C27500B62854 /* LaunchScreen.storyboard */; };
 		228268171FB5C27500B62854 /* NacPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228268161FB5C27500B62854 /* NacPayTests.swift */; };
 		228268221FB5C27500B62854 /* NacPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228268211FB5C27500B62854 /* NacPayUITests.swift */; };
+		228ACC431FC2ADE1007BA43E /* StructToJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225F804A1FBEC63600933221 /* StructToJson.swift */; };
+		22C9F46A1FB6F0DF0004D789 /* text.png in Resources */ = {isa = PBXBuildFile; fileRef = 22C9F4691FB6EF4F0004D789 /* text.png */; };
+		22CBB83E1FB5D482002DE2C8 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22F2E5901FB5CCD5000CE67A /* Lato-Bold.ttf */; };
+		22CBB83F1FB5D482002DE2C8 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22F2E5911FB5CCD5000CE67A /* Lato-Black.ttf */; };
+		22CBB8401FB5D482002DE2C8 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22F2E5921FB5CCD5000CE67A /* Lato-Regular.ttf */; };
+		22CBB8411FB5D482002DE2C8 /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22F2E5931FB5CCD5000CE67A /* Lato-Semibold.ttf */; };
+		22CBB8421FB5D482002DE2C8 /* Lato-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22F2E5941FB5CCD5000CE67A /* Lato-Heavy.ttf */; };
+		22CBB8431FB5D482002DE2C8 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22F2E5951FB5CCD5000CE67A /* Lato-Light.ttf */; };
+		22CBB8441FB5D482002DE2C8 /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22F2E5961FB5CCD5000CE67A /* Lato-Medium.ttf */; };
+		22CBB8451FB5D482002DE2C8 /* RadarMarkerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22F2E5A81FB5CCD5000CE67A /* RadarMarkerView.xib */; };
+		22CBB8461FB5D482002DE2C8 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 22F2E5BB1FB5CCD5000CE67A /* IQKeyboardManager.bundle */; };
+		22CBB8471FB5D4CC002DE2C8 /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E58E1FB5CCD5000CE67A /* APIConstant.swift */; };
+		22CBB8481FB5D4CC002DE2C8 /* SocketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E6091FB5CCD6000CE67A /* SocketModel.swift */; };
+		22CBB8491FB5D4CC002DE2C8 /* GlobalFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E60A1FB5CCD6000CE67A /* GlobalFunction.swift */; };
+		22CBB84A1FB5D4CC002DE2C8 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E60B1FB5CCD6000CE67A /* Socket.swift */; };
+		22CBB84B1FB5D4CC002DE2C8 /* NPPinCodeField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5991FB5CCD5000CE67A /* NPPinCodeField.swift */; };
+		22CBB84C1FB5D4CC002DE2C8 /* XYMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5A51FB5CCD5000CE67A /* XYMarkerView.swift */; };
+		22CBB84D1FB5D4CC002DE2C8 /* BalloonMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5A61FB5CCD5000CE67A /* BalloonMarker.swift */; };
+		22CBB84E1FB5D4CC002DE2C8 /* RadarMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5A71FB5CCD5000CE67A /* RadarMarkerView.swift */; };
+		22CBB84F1FB5D4CC002DE2C8 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5AB1FB5CCD5000CE67A /* Network.swift */; };
+		22CBB8501FB5D4CC002DE2C8 /* InternetReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5AD1FB5CCD5000CE67A /* InternetReachability.swift */; };
+		22CBB8511FB5D4CC002DE2C8 /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5B01FB5CCD5000CE67A /* IQTextView.swift */; };
+		22CBB8521FB5D4CC002DE2C8 /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5B21FB5CCD5000CE67A /* IQPreviousNextView.swift */; };
+		22CBB8531FB5D4CC002DE2C8 /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5B31FB5CCD5000CE67A /* IQTitleBarButtonItem.swift */; };
+		22CBB8541FB5D4CC002DE2C8 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5B41FB5CCD5000CE67A /* IQBarButtonItem.swift */; };
+		22CBB8551FB5D4CC002DE2C8 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5B51FB5CCD5000CE67A /* IQToolbar.swift */; };
+		22CBB8561FB5D4CC002DE2C8 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5B61FB5CCD5000CE67A /* IQUIView+IQKeyboardToolbar.swift */; };
+		22CBB8571FB5D4CC002DE2C8 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5B81FB5CCD5000CE67A /* IQKeyboardManagerConstantsInternal.swift */; };
+		22CBB8581FB5D4CC002DE2C8 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5B91FB5CCD5000CE67A /* IQKeyboardManagerConstants.swift */; };
+		22CBB8591FB5D4CC002DE2C8 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5BC1FB5CCD5000CE67A /* IQKeyboardReturnKeyHandler.swift */; };
+		22CBB85A1FB5D4CC002DE2C8 /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5BD1FB5CCD5000CE67A /* IQKeyboardManager.swift */; };
+		22CBB85C1FB5D4CC002DE2C8 /* IQUIWindow+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5C01FB5CCD5000CE67A /* IQUIWindow+Hierarchy.swift */; };
+		22CBB85D1FB5D4CC002DE2C8 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5C11FB5CCD5000CE67A /* IQUIScrollView+Additions.swift */; };
+		22CBB85E1FB5D4CC002DE2C8 /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5C21FB5CCD5000CE67A /* IQUIViewController+Additions.swift */; };
+		22CBB85F1FB5D4CC002DE2C8 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5C31FB5CCD5000CE67A /* IQUITextFieldView+Additions.swift */; };
+		22CBB8601FB5D4CC002DE2C8 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5C41FB5CCD5000CE67A /* IQUIView+Hierarchy.swift */; };
+		22CBB8611FB5D4CC002DE2C8 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5C51FB5CCD5000CE67A /* IQNSArray+Sort.swift */; };
+		22CBB8621FB5D4CC002DE2C8 /* CreateTicketVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5E91FB5CCD6000CE67A /* CreateTicketVC.swift */; };
+		22CBB8631FB5D4CC002DE2C8 /* BankAndPaytmDepositeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5EA1FB5CCD6000CE67A /* BankAndPaytmDepositeVC.swift */; };
+		22CBB8641FB5D4CC002DE2C8 /* IntroductionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5EB1FB5CCD6000CE67A /* IntroductionVC.swift */; };
+		22CBB8651FB5D4CC002DE2C8 /* DepositeWithdrawInvoiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5EC1FB5CCD6000CE67A /* DepositeWithdrawInvoiceVC.swift */; };
+		22CBB8661FB5D4CC002DE2C8 /* VerifyCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5ED1FB5CCD6000CE67A /* VerifyCodeVC.swift */; };
+		22CBB8671FB5D4CC002DE2C8 /* TransactionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5EE1FB5CCD6000CE67A /* TransactionsVC.swift */; };
+		22CBB8681FB5D4CC002DE2C8 /* AskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5EF1FB5CCD6000CE67A /* AskVC.swift */; };
+		22CBB8691FB5D4CC002DE2C8 /* BuyAndSellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5F01FB5CCD6000CE67A /* BuyAndSellVC.swift */; };
+		22CBB86A1FB5D4CC002DE2C8 /* SendBitcoinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5F11FB5CCD6000CE67A /* SendBitcoinVC.swift */; };
+		22CBB86B1FB5D4CC002DE2C8 /* MyAddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5F21FB5CCD6000CE67A /* MyAddressVC.swift */; };
+		22CBB86C1FB5D4CC002DE2C8 /* SendReceiveTransactionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5F31FB5CCD6000CE67A /* SendReceiveTransactionVC.swift */; };
+		22CBB86D1FB5D4CC002DE2C8 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5F41FB5CCD6000CE67A /* SettingVC.swift */; };
+		22CBB86E1FB5D4CC002DE2C8 /* VerifyCompleteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5F51FB5CCD6000CE67A /* VerifyCompleteVC.swift */; };
+		22CBB86F1FB5D4CC002DE2C8 /* ReceiveBitcoinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5F61FB5CCD6000CE67A /* ReceiveBitcoinVC.swift */; };
+		22CBB8701FB5D4CC002DE2C8 /* SetupPINVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5F71FB5CCD6000CE67A /* SetupPINVC.swift */; };
+		22CBB8711FB5D4CC002DE2C8 /* TeramsAndConditionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5F81FB5CCD6000CE67A /* TeramsAndConditionVC.swift */; };
+		22CBB8721FB5D4CC002DE2C8 /* AboutUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5F91FB5CCD6000CE67A /* AboutUsVC.swift */; };
+		22CBB8731FB5D4CC002DE2C8 /* ReceiveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5FA1FB5CCD6000CE67A /* ReceiveVC.swift */; };
+		22CBB8741FB5D4CC002DE2C8 /* SendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5FB1FB5CCD6000CE67A /* SendVC.swift */; };
+		22CBB8751FB5D4CC002DE2C8 /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5FC1FB5CCD6000CE67A /* EditProfileVC.swift */; };
+		22CBB8761FB5D4CC002DE2C8 /* MyTicketMessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5FD1FB5CCD6000CE67A /* MyTicketMessageVC.swift */; };
+		22CBB8771FB5D4CC002DE2C8 /* VerifyPhoneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5FE1FB5CCD6000CE67A /* VerifyPhoneVC.swift */; };
+		22CBB8781FB5D4CC002DE2C8 /* BidVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5FF1FB5CCD6000CE67A /* BidVC.swift */; };
+		22CBB8791FB5D4CC002DE2C8 /* RightDrawerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E6001FB5CCD6000CE67A /* RightDrawerVC.swift */; };
+		22CBB87A1FB5D4CC002DE2C8 /* DepositeWithdrawReceiptVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E6011FB5CCD6000CE67A /* DepositeWithdrawReceiptVC.swift */; };
+		22CBB87B1FB5D4CC002DE2C8 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E6021FB5CCD6000CE67A /* HomeVC.swift */; };
+		22CBB87C1FB5D4CC002DE2C8 /* AccountVerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E6031FB5CCD6000CE67A /* AccountVerificationVC.swift */; };
+		22CBB87D1FB5D4CC002DE2C8 /* MyTicketVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E6041FB5CCD6000CE67A /* MyTicketVC.swift */; };
+		22CBB87E1FB5D4CC002DE2C8 /* SupportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E6051FB5CCD6000CE67A /* SupportVC.swift */; };
+		22CBB87F1FB5D4CC002DE2C8 /* DepositeAndWithdrawVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E6061FB5CCD6000CE67A /* DepositeAndWithdrawVC.swift */; };
+		22CBB8801FB5D4CC002DE2C8 /* AccountStatementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E6071FB5CCD6000CE67A /* AccountStatementVC.swift */; };
+		22CBB8811FB5D4F8002DE2C8 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E59B1FB5CCD5000CE67A /* MMDrawerBarButtonItem.m */; };
+		22CBB8821FB5D4F8002DE2C8 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E59C1FB5CCD5000CE67A /* UIViewController+MMDrawerController.m */; };
+		22CBB8831FB5D4F8002DE2C8 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E59D1FB5CCD5000CE67A /* MMDrawerController.m */; };
+		22CBB8841FB5D4F8002DE2C8 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5A21FB5CCD5000CE67A /* MMDrawerVisualState.m */; };
+		22CBB8851FB5D4F8002DE2C8 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5AA1FB5CCD5000CE67A /* Reachability.m */; };
+		22CBB8861FB5D4F8002DE2C8 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5C71FB5CCD5000CE67A /* UIImage+WebP.m */; };
+		22CBB8871FB5D4F8002DE2C8 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5C81FB5CCD5000CE67A /* MKAnnotationView+WebCache.m */; };
+		22CBB8881FB5D4F8002DE2C8 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5CB1FB5CCD5000CE67A /* SDWebImageManager.m */; };
+		22CBB8891FB5D4F8002DE2C8 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5CC1FB5CCD5000CE67A /* SDWebImageDecoder.m */; };
+		22CBB88A1FB5D4F8002DE2C8 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5CE1FB5CCD5000CE67A /* UIImageView+HighlightedWebCache.m */; };
+		22CBB88B1FB5D4F8002DE2C8 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5D01FB5CCD5000CE67A /* SDWebImageDownloader.m */; };
+		22CBB88C1FB5D4F8002DE2C8 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5D11FB5CCD5000CE67A /* UIImage+GIF.m */; };
+		22CBB88D1FB5D4F8002DE2C8 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5D31FB5CCD5000CE67A /* UIImage+MultiFormat.m */; };
+		22CBB88E1FB5D4F8002DE2C8 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5D41FB5CCD5000CE67A /* SDWebImageCompat.m */; };
+		22CBB88F1FB5D4F8002DE2C8 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5D51FB5CCD5000CE67A /* SDWebImagePrefetcher.m */; };
+		22CBB8901FB5D4F8002DE2C8 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5D91FB5CCD5000CE67A /* SDImageCache.m */; };
+		22CBB8911FB5D4F8002DE2C8 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5DB1FB5CCD5000CE67A /* SDWebImageDownloaderOperation.m */; };
+		22CBB8921FB5D4F8002DE2C8 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5DE1FB5CCD5000CE67A /* NSData+ImageContentType.m */; };
+		22CBB8931FB5D4F8002DE2C8 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5DF1FB5CCD5000CE67A /* UIImageView+WebCache.m */; };
+		22CBB8941FB5D4F8002DE2C8 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5E21FB5CCD5000CE67A /* UIView+WebCacheOperation.m */; };
+		22CBB8951FB5D4F8002DE2C8 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5E61FB5CCD5000CE67A /* UIButton+WebCache.m */; };
+		22CBB8961FB5D517002DE2C8 /* IQKeyboardManagerSwift.h in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5BE1FB5CCD5000CE67A /* IQKeyboardManagerSwift.h */; };
+		22E5773B1FBC629E00DDD2AE /* splace.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E5773A1FBC629800DDD2AE /* splace.png */; };
+		22F2E5021FB5CC75000CE67A /* Try.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F2E5011FB5CC75000CE67A /* Try.m */; };
+		8564196D7209C4FC105F677D /* Pods_NacPay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C454101D4F722B874FB0F78B /* Pods_NacPay.framework */; };
+		85C39B5D0FF98C0BF7CAEDCE /* Pods_NacPayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B0DD0207853835C9882CEE2 /* Pods_NacPayTests.framework */; };
+		900AD0522008E90000014D98 /* terms.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 900AD0512008E8FB00014D98 /* terms.pdf */; };
+		901D5752203D93DE00BE8C31 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 901D5751203D93DD00BE8C31 /* AVFoundation.framework */; };
+		903EACBE2045548E000C157C /* DASHBOARD.png in Resources */ = {isa = PBXBuildFile; fileRef = 903EACBD20455480000C157C /* DASHBOARD.png */; };
+		CEDB18CF0EBABCE6EF88EBD1 /* Pods_NacPayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A06C0510C37D3EDADF3D35EB /* Pods_NacPayUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +134,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		228267FE1FB5C27500B62854 /* NacPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NacPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0106D86992BD496344A772AE /* Pods-NacPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NacPay.release.xcconfig"; path = "Pods/Target Support Files/Pods-NacPay/Pods-NacPay.release.xcconfig"; sourceTree = "<group>"; };
+		1B0DD0207853835C9882CEE2 /* Pods_NacPayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NacPayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		223120411FC5960E00B502F9 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		225F7FB11FBD70E100933221 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		225F804A1FBEC63600933221 /* StructToJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructToJson.swift; sourceTree = "<group>"; };
+		225F80531FBEDDFF00933221 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		228267FE1FB5C27500B62854 /* NacCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NacCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		228268011FB5C27500B62854 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		228268031FB5C27500B62854 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		228268061FB5C27500B62854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		228268081FB5C27500B62854 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2282680B1FB5C27500B62854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +152,133 @@
 		2282681D1FB5C27500B62854 /* NacPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NacPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		228268211FB5C27500B62854 /* NacPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NacPayUITests.swift; sourceTree = "<group>"; };
 		228268231FB5C27500B62854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C9F4691FB6EF4F0004D789 /* text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text.png; sourceTree = "<group>"; };
+		22E5773A1FBC629800DDD2AE /* splace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splace.png; sourceTree = "<group>"; };
+		22F2E4FF1FB5CC75000CE67A /* NacPay-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NacPay-Bridging-Header.h"; sourceTree = "<group>"; };
+		22F2E5001FB5CC75000CE67A /* Try.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Try.h; sourceTree = "<group>"; };
+		22F2E5011FB5CC75000CE67A /* Try.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Try.m; sourceTree = "<group>"; };
+		22F2E58E1FB5CCD5000CE67A /* APIConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstant.swift; sourceTree = "<group>"; };
+		22F2E5901FB5CCD5000CE67A /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		22F2E5911FB5CCD5000CE67A /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		22F2E5921FB5CCD5000CE67A /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		22F2E5931FB5CCD5000CE67A /* Lato-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Semibold.ttf"; sourceTree = "<group>"; };
+		22F2E5941FB5CCD5000CE67A /* Lato-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Heavy.ttf"; sourceTree = "<group>"; };
+		22F2E5951FB5CCD5000CE67A /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		22F2E5961FB5CCD5000CE67A /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Medium.ttf"; sourceTree = "<group>"; };
+		22F2E5991FB5CCD5000CE67A /* NPPinCodeField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPPinCodeField.swift; sourceTree = "<group>"; };
+		22F2E59B1FB5CCD5000CE67A /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		22F2E59C1FB5CCD5000CE67A /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		22F2E59D1FB5CCD5000CE67A /* MMDrawerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		22F2E59E1FB5CCD5000CE67A /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		22F2E59F1FB5CCD5000CE67A /* MMDrawerVisualState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		22F2E5A01FB5CCD5000CE67A /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		22F2E5A11FB5CCD5000CE67A /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		22F2E5A21FB5CCD5000CE67A /* MMDrawerVisualState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		22F2E5A31FB5CCD5000CE67A /* MMDrawerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		22F2E5A51FB5CCD5000CE67A /* XYMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYMarkerView.swift; sourceTree = "<group>"; };
+		22F2E5A61FB5CCD5000CE67A /* BalloonMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalloonMarker.swift; sourceTree = "<group>"; };
+		22F2E5A71FB5CCD5000CE67A /* RadarMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarMarkerView.swift; sourceTree = "<group>"; };
+		22F2E5A81FB5CCD5000CE67A /* RadarMarkerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RadarMarkerView.xib; sourceTree = "<group>"; };
+		22F2E5AA1FB5CCD5000CE67A /* Reachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		22F2E5AB1FB5CCD5000CE67A /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		22F2E5AC1FB5CCD5000CE67A /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		22F2E5AD1FB5CCD5000CE67A /* InternetReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetReachability.swift; sourceTree = "<group>"; };
+		22F2E5B01FB5CCD5000CE67A /* IQTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
+		22F2E5B21FB5CCD5000CE67A /* IQPreviousNextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
+		22F2E5B31FB5CCD5000CE67A /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		22F2E5B41FB5CCD5000CE67A /* IQBarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQBarButtonItem.swift; sourceTree = "<group>"; };
+		22F2E5B51FB5CCD5000CE67A /* IQToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
+		22F2E5B61FB5CCD5000CE67A /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		22F2E5B81FB5CCD5000CE67A /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		22F2E5B91FB5CCD5000CE67A /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		22F2E5BB1FB5CCD5000CE67A /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		22F2E5BC1FB5CCD5000CE67A /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		22F2E5BD1FB5CCD5000CE67A /* IQKeyboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
+		22F2E5BE1FB5CCD5000CE67A /* IQKeyboardManagerSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerSwift.h; sourceTree = "<group>"; };
+		22F2E5C01FB5CCD5000CE67A /* IQUIWindow+Hierarchy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IQUIWindow+Hierarchy.swift"; sourceTree = "<group>"; };
+		22F2E5C11FB5CCD5000CE67A /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		22F2E5C21FB5CCD5000CE67A /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		22F2E5C31FB5CCD5000CE67A /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		22F2E5C41FB5CCD5000CE67A /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		22F2E5C51FB5CCD5000CE67A /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		22F2E5C71FB5CCD5000CE67A /* UIImage+WebP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
+		22F2E5C81FB5CCD5000CE67A /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		22F2E5C91FB5CCD5000CE67A /* UIImageView+WebCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		22F2E5CA1FB5CCD5000CE67A /* NSData+ImageContentType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		22F2E5CB1FB5CCD5000CE67A /* SDWebImageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		22F2E5CC1FB5CCD5000CE67A /* SDWebImageDecoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		22F2E5CD1FB5CCD5000CE67A /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		22F2E5CE1FB5CCD5000CE67A /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		22F2E5CF1FB5CCD5000CE67A /* SDImageCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		22F2E5D01FB5CCD5000CE67A /* SDWebImageDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		22F2E5D11FB5CCD5000CE67A /* UIImage+GIF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		22F2E5D21FB5CCD5000CE67A /* UIButton+WebCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		22F2E5D31FB5CCD5000CE67A /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		22F2E5D41FB5CCD5000CE67A /* SDWebImageCompat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		22F2E5D51FB5CCD5000CE67A /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		22F2E5D61FB5CCD5000CE67A /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		22F2E5D71FB5CCD5000CE67A /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		22F2E5D81FB5CCD5000CE67A /* UIImage+WebP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		22F2E5D91FB5CCD5000CE67A /* SDImageCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		22F2E5DA1FB5CCD5000CE67A /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		22F2E5DB1FB5CCD5000CE67A /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		22F2E5DC1FB5CCD5000CE67A /* SDWebImageDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		22F2E5DD1FB5CCD5000CE67A /* SDWebImageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		22F2E5DE1FB5CCD5000CE67A /* NSData+ImageContentType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		22F2E5DF1FB5CCD5000CE67A /* UIImageView+WebCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		22F2E5E01FB5CCD5000CE67A /* SDWebImageOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		22F2E5E11FB5CCD5000CE67A /* SDWebImageDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		22F2E5E21FB5CCD5000CE67A /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		22F2E5E31FB5CCD5000CE67A /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		22F2E5E41FB5CCD5000CE67A /* SDWebImageCompat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		22F2E5E51FB5CCD5000CE67A /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		22F2E5E61FB5CCD5000CE67A /* UIButton+WebCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		22F2E5E71FB5CCD5000CE67A /* UIImage+GIF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		22F2E5E91FB5CCD6000CE67A /* CreateTicketVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTicketVC.swift; sourceTree = "<group>"; };
+		22F2E5EA1FB5CCD6000CE67A /* BankAndPaytmDepositeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAndPaytmDepositeVC.swift; sourceTree = "<group>"; };
+		22F2E5EB1FB5CCD6000CE67A /* IntroductionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionVC.swift; sourceTree = "<group>"; };
+		22F2E5EC1FB5CCD6000CE67A /* DepositeWithdrawInvoiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositeWithdrawInvoiceVC.swift; sourceTree = "<group>"; };
+		22F2E5ED1FB5CCD6000CE67A /* VerifyCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCodeVC.swift; sourceTree = "<group>"; };
+		22F2E5EE1FB5CCD6000CE67A /* TransactionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsVC.swift; sourceTree = "<group>"; };
+		22F2E5EF1FB5CCD6000CE67A /* AskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskVC.swift; sourceTree = "<group>"; };
+		22F2E5F01FB5CCD6000CE67A /* BuyAndSellVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyAndSellVC.swift; sourceTree = "<group>"; };
+		22F2E5F11FB5CCD6000CE67A /* SendBitcoinVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendBitcoinVC.swift; sourceTree = "<group>"; };
+		22F2E5F21FB5CCD6000CE67A /* MyAddressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAddressVC.swift; sourceTree = "<group>"; };
+		22F2E5F31FB5CCD6000CE67A /* SendReceiveTransactionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendReceiveTransactionVC.swift; sourceTree = "<group>"; };
+		22F2E5F41FB5CCD6000CE67A /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		22F2E5F51FB5CCD6000CE67A /* VerifyCompleteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCompleteVC.swift; sourceTree = "<group>"; };
+		22F2E5F61FB5CCD6000CE67A /* ReceiveBitcoinVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveBitcoinVC.swift; sourceTree = "<group>"; };
+		22F2E5F71FB5CCD6000CE67A /* SetupPINVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupPINVC.swift; sourceTree = "<group>"; };
+		22F2E5F81FB5CCD6000CE67A /* TeramsAndConditionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeramsAndConditionVC.swift; sourceTree = "<group>"; };
+		22F2E5F91FB5CCD6000CE67A /* AboutUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsVC.swift; sourceTree = "<group>"; };
+		22F2E5FA1FB5CCD6000CE67A /* ReceiveVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveVC.swift; sourceTree = "<group>"; };
+		22F2E5FB1FB5CCD6000CE67A /* SendVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendVC.swift; sourceTree = "<group>"; };
+		22F2E5FC1FB5CCD6000CE67A /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		22F2E5FD1FB5CCD6000CE67A /* MyTicketMessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTicketMessageVC.swift; sourceTree = "<group>"; };
+		22F2E5FE1FB5CCD6000CE67A /* VerifyPhoneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyPhoneVC.swift; sourceTree = "<group>"; };
+		22F2E5FF1FB5CCD6000CE67A /* BidVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BidVC.swift; sourceTree = "<group>"; };
+		22F2E6001FB5CCD6000CE67A /* RightDrawerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightDrawerVC.swift; sourceTree = "<group>"; };
+		22F2E6011FB5CCD6000CE67A /* DepositeWithdrawReceiptVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositeWithdrawReceiptVC.swift; sourceTree = "<group>"; };
+		22F2E6021FB5CCD6000CE67A /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		22F2E6031FB5CCD6000CE67A /* AccountVerificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVerificationVC.swift; sourceTree = "<group>"; };
+		22F2E6041FB5CCD6000CE67A /* MyTicketVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTicketVC.swift; sourceTree = "<group>"; };
+		22F2E6051FB5CCD6000CE67A /* SupportVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportVC.swift; sourceTree = "<group>"; };
+		22F2E6061FB5CCD6000CE67A /* DepositeAndWithdrawVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositeAndWithdrawVC.swift; sourceTree = "<group>"; };
+		22F2E6071FB5CCD6000CE67A /* AccountStatementVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountStatementVC.swift; sourceTree = "<group>"; };
+		22F2E6091FB5CCD6000CE67A /* SocketModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketModel.swift; sourceTree = "<group>"; };
+		22F2E60A1FB5CCD6000CE67A /* GlobalFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalFunction.swift; sourceTree = "<group>"; };
+		22F2E60B1FB5CCD6000CE67A /* Socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		2F6F1D03F254AC8C53CEBAE3 /* Pods-NacPayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NacPayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NacPayTests/Pods-NacPayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E33040FD41BCD91342C4398 /* Pods-NacPayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NacPayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NacPayUITests/Pods-NacPayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		900AD0512008E8FB00014D98 /* terms.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = terms.pdf; sourceTree = "<group>"; };
+		901D5751203D93DD00BE8C31 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		903EACBD20455480000C157C /* DASHBOARD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DASHBOARD.png; sourceTree = "<group>"; };
+		90CED288200641FA003ABFFD /* NacCoin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NacCoin.entitlements; sourceTree = "<group>"; };
+		A06C0510C37D3EDADF3D35EB /* Pods_NacPayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NacPayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C06EED66DBFD7E9EC22C6035 /* Pods-NacPayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NacPayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NacPayUITests/Pods-NacPayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C454101D4F722B874FB0F78B /* Pods_NacPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NacPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC1A325A52197C85283D4B6 /* Pods-NacPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NacPay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NacPay/Pods-NacPay.debug.xcconfig"; sourceTree = "<group>"; };
+		F6FA7E2EB6742DB9E99B84EA /* Pods-NacPayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NacPayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NacPayTests/Pods-NacPayTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +286,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				901D5752203D93DE00BE8C31 /* AVFoundation.framework in Frameworks */,
+				225F80541FBEDE0900933221 /* UIKit.framework in Frameworks */,
+				225F7FB21FBD70E100933221 /* libz.tbd in Frameworks */,
+				8564196D7209C4FC105F677D /* Pods_NacPay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +297,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85C39B5D0FF98C0BF7CAEDCE /* Pods_NacPayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +305,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDB18CF0EBABCE6EF88EBD1 /* Pods_NacPayUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,13 +319,15 @@
 				228268151FB5C27500B62854 /* NacPayTests */,
 				228268201FB5C27500B62854 /* NacPayUITests */,
 				228267FF1FB5C27500B62854 /* Products */,
+				86E0B4713D87A4FBA26CCA75 /* Frameworks */,
+				EF30E99974DB00B28D2272AB /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		228267FF1FB5C27500B62854 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				228267FE1FB5C27500B62854 /* NacPay.app */,
+				228267FE1FB5C27500B62854 /* NacCoin.app */,
 				228268121FB5C27500B62854 /* NacPayTests.xctest */,
 				2282681D1FB5C27500B62854 /* NacPayUITests.xctest */,
 			);
@@ -97,12 +337,25 @@
 		228268001FB5C27500B62854 /* NacPay */ = {
 			isa = PBXGroup;
 			children = (
+				90CED288200641FA003ABFFD /* NacCoin.entitlements */,
+				903EACBD20455480000C157C /* DASHBOARD.png */,
 				228268011FB5C27500B62854 /* AppDelegate.swift */,
-				228268031FB5C27500B62854 /* ViewController.swift */,
+				22F2E58D1FB5CCD5000CE67A /* APIConstant */,
+				22F2E58F1FB5CCD5000CE67A /* Fonts */,
+				22F2E6081FB5CCD6000CE67A /* GlobalFunction */,
+				22F2E5971FB5CCD5000CE67A /* ThirdParty */,
+				22F2E5E81FB5CCD6000CE67A /* ViewControllers */,
+				22F2E5001FB5CC75000CE67A /* Try.h */,
+				22F2E5011FB5CC75000CE67A /* Try.m */,
+				900AD0512008E8FB00014D98 /* terms.pdf */,
+				22C9F4691FB6EF4F0004D789 /* text.png */,
 				228268051FB5C27500B62854 /* Main.storyboard */,
+				223120411FC5960E00B502F9 /* bg.png */,
+				22E5773A1FBC629800DDD2AE /* splace.png */,
 				228268081FB5C27500B62854 /* Assets.xcassets */,
 				2282680A1FB5C27500B62854 /* LaunchScreen.storyboard */,
 				2282680D1FB5C27500B62854 /* Info.plist */,
+				22F2E4FF1FB5CC75000CE67A /* NacPay-Bridging-Header.h */,
 			);
 			path = NacPay;
 			sourceTree = "<group>";
@@ -125,6 +378,267 @@
 			path = NacPayUITests;
 			sourceTree = "<group>";
 		};
+		22F2E58D1FB5CCD5000CE67A /* APIConstant */ = {
+			isa = PBXGroup;
+			children = (
+				22F2E58E1FB5CCD5000CE67A /* APIConstant.swift */,
+			);
+			path = APIConstant;
+			sourceTree = "<group>";
+		};
+		22F2E58F1FB5CCD5000CE67A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				22F2E5901FB5CCD5000CE67A /* Lato-Bold.ttf */,
+				22F2E5911FB5CCD5000CE67A /* Lato-Black.ttf */,
+				22F2E5921FB5CCD5000CE67A /* Lato-Regular.ttf */,
+				22F2E5931FB5CCD5000CE67A /* Lato-Semibold.ttf */,
+				22F2E5941FB5CCD5000CE67A /* Lato-Heavy.ttf */,
+				22F2E5951FB5CCD5000CE67A /* Lato-Light.ttf */,
+				22F2E5961FB5CCD5000CE67A /* Lato-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		22F2E5971FB5CCD5000CE67A /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				225F804A1FBEC63600933221 /* StructToJson.swift */,
+				22F2E5981FB5CCD5000CE67A /* NPPinCodeField */,
+				22F2E59A1FB5CCD5000CE67A /* MMDrawerController */,
+				22F2E5A41FB5CCD5000CE67A /* Components */,
+				22F2E5A91FB5CCD5000CE67A /* Reachability */,
+				22F2E5AE1FB5CCD5000CE67A /* IQKeyboardManagerSwift */,
+				22F2E5C61FB5CCD5000CE67A /* SDWebImage */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		22F2E5981FB5CCD5000CE67A /* NPPinCodeField */ = {
+			isa = PBXGroup;
+			children = (
+				22F2E5991FB5CCD5000CE67A /* NPPinCodeField.swift */,
+			);
+			path = NPPinCodeField;
+			sourceTree = "<group>";
+		};
+		22F2E59A1FB5CCD5000CE67A /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				22F2E59B1FB5CCD5000CE67A /* MMDrawerBarButtonItem.m */,
+				22F2E59C1FB5CCD5000CE67A /* UIViewController+MMDrawerController.m */,
+				22F2E59D1FB5CCD5000CE67A /* MMDrawerController.m */,
+				22F2E59E1FB5CCD5000CE67A /* MMDrawerController+Subclass.h */,
+				22F2E59F1FB5CCD5000CE67A /* MMDrawerVisualState.h */,
+				22F2E5A01FB5CCD5000CE67A /* MMDrawerBarButtonItem.h */,
+				22F2E5A11FB5CCD5000CE67A /* UIViewController+MMDrawerController.h */,
+				22F2E5A21FB5CCD5000CE67A /* MMDrawerVisualState.m */,
+				22F2E5A31FB5CCD5000CE67A /* MMDrawerController.h */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		22F2E5A41FB5CCD5000CE67A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				22F2E5A51FB5CCD5000CE67A /* XYMarkerView.swift */,
+				22F2E5A61FB5CCD5000CE67A /* BalloonMarker.swift */,
+				22F2E5A71FB5CCD5000CE67A /* RadarMarkerView.swift */,
+				22F2E5A81FB5CCD5000CE67A /* RadarMarkerView.xib */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		22F2E5A91FB5CCD5000CE67A /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				22F2E5AA1FB5CCD5000CE67A /* Reachability.m */,
+				22F2E5AB1FB5CCD5000CE67A /* Network.swift */,
+				22F2E5AC1FB5CCD5000CE67A /* Reachability.h */,
+				22F2E5AD1FB5CCD5000CE67A /* InternetReachability.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		22F2E5AE1FB5CCD5000CE67A /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				22F2E5AF1FB5CCD5000CE67A /* IQTextView */,
+				22F2E5B11FB5CCD5000CE67A /* IQToolbar */,
+				22F2E5B71FB5CCD5000CE67A /* Constants */,
+				22F2E5BA1FB5CCD5000CE67A /* Resources */,
+				22F2E5BC1FB5CCD5000CE67A /* IQKeyboardReturnKeyHandler.swift */,
+				22F2E5BD1FB5CCD5000CE67A /* IQKeyboardManager.swift */,
+				22F2E5BE1FB5CCD5000CE67A /* IQKeyboardManagerSwift.h */,
+				22F2E5BF1FB5CCD5000CE67A /* Categories */,
+			);
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		22F2E5AF1FB5CCD5000CE67A /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				22F2E5B01FB5CCD5000CE67A /* IQTextView.swift */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		22F2E5B11FB5CCD5000CE67A /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				22F2E5B21FB5CCD5000CE67A /* IQPreviousNextView.swift */,
+				22F2E5B31FB5CCD5000CE67A /* IQTitleBarButtonItem.swift */,
+				22F2E5B41FB5CCD5000CE67A /* IQBarButtonItem.swift */,
+				22F2E5B51FB5CCD5000CE67A /* IQToolbar.swift */,
+				22F2E5B61FB5CCD5000CE67A /* IQUIView+IQKeyboardToolbar.swift */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		22F2E5B71FB5CCD5000CE67A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				22F2E5B81FB5CCD5000CE67A /* IQKeyboardManagerConstantsInternal.swift */,
+				22F2E5B91FB5CCD5000CE67A /* IQKeyboardManagerConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		22F2E5BA1FB5CCD5000CE67A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				22F2E5BB1FB5CCD5000CE67A /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		22F2E5BF1FB5CCD5000CE67A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				22F2E5C01FB5CCD5000CE67A /* IQUIWindow+Hierarchy.swift */,
+				22F2E5C11FB5CCD5000CE67A /* IQUIScrollView+Additions.swift */,
+				22F2E5C21FB5CCD5000CE67A /* IQUIViewController+Additions.swift */,
+				22F2E5C31FB5CCD5000CE67A /* IQUITextFieldView+Additions.swift */,
+				22F2E5C41FB5CCD5000CE67A /* IQUIView+Hierarchy.swift */,
+				22F2E5C51FB5CCD5000CE67A /* IQNSArray+Sort.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		22F2E5C61FB5CCD5000CE67A /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				22F2E5C71FB5CCD5000CE67A /* UIImage+WebP.m */,
+				22F2E5C81FB5CCD5000CE67A /* MKAnnotationView+WebCache.m */,
+				22F2E5C91FB5CCD5000CE67A /* UIImageView+WebCache.h */,
+				22F2E5CA1FB5CCD5000CE67A /* NSData+ImageContentType.h */,
+				22F2E5CB1FB5CCD5000CE67A /* SDWebImageManager.m */,
+				22F2E5CC1FB5CCD5000CE67A /* SDWebImageDecoder.m */,
+				22F2E5CD1FB5CCD5000CE67A /* SDWebImageDownloaderOperation.h */,
+				22F2E5CE1FB5CCD5000CE67A /* UIImageView+HighlightedWebCache.m */,
+				22F2E5CF1FB5CCD5000CE67A /* SDImageCache.h */,
+				22F2E5D01FB5CCD5000CE67A /* SDWebImageDownloader.m */,
+				22F2E5D11FB5CCD5000CE67A /* UIImage+GIF.m */,
+				22F2E5D21FB5CCD5000CE67A /* UIButton+WebCache.h */,
+				22F2E5D31FB5CCD5000CE67A /* UIImage+MultiFormat.m */,
+				22F2E5D41FB5CCD5000CE67A /* SDWebImageCompat.m */,
+				22F2E5D51FB5CCD5000CE67A /* SDWebImagePrefetcher.m */,
+				22F2E5D61FB5CCD5000CE67A /* UIView+WebCacheOperation.h */,
+				22F2E5D71FB5CCD5000CE67A /* MKAnnotationView+WebCache.h */,
+				22F2E5D81FB5CCD5000CE67A /* UIImage+WebP.h */,
+				22F2E5D91FB5CCD5000CE67A /* SDImageCache.m */,
+				22F2E5DA1FB5CCD5000CE67A /* UIImageView+HighlightedWebCache.h */,
+				22F2E5DB1FB5CCD5000CE67A /* SDWebImageDownloaderOperation.m */,
+				22F2E5DC1FB5CCD5000CE67A /* SDWebImageDecoder.h */,
+				22F2E5DD1FB5CCD5000CE67A /* SDWebImageManager.h */,
+				22F2E5DE1FB5CCD5000CE67A /* NSData+ImageContentType.m */,
+				22F2E5DF1FB5CCD5000CE67A /* UIImageView+WebCache.m */,
+				22F2E5E01FB5CCD5000CE67A /* SDWebImageOperation.h */,
+				22F2E5E11FB5CCD5000CE67A /* SDWebImageDownloader.h */,
+				22F2E5E21FB5CCD5000CE67A /* UIView+WebCacheOperation.m */,
+				22F2E5E31FB5CCD5000CE67A /* SDWebImagePrefetcher.h */,
+				22F2E5E41FB5CCD5000CE67A /* SDWebImageCompat.h */,
+				22F2E5E51FB5CCD5000CE67A /* UIImage+MultiFormat.h */,
+				22F2E5E61FB5CCD5000CE67A /* UIButton+WebCache.m */,
+				22F2E5E71FB5CCD5000CE67A /* UIImage+GIF.h */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		22F2E5E81FB5CCD6000CE67A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				22F2E5EB1FB5CCD6000CE67A /* IntroductionVC.swift */,
+				22F2E5FE1FB5CCD6000CE67A /* VerifyPhoneVC.swift */,
+				22F2E5ED1FB5CCD6000CE67A /* VerifyCodeVC.swift */,
+				22F2E5F51FB5CCD6000CE67A /* VerifyCompleteVC.swift */,
+				22F2E5F71FB5CCD6000CE67A /* SetupPINVC.swift */,
+				22F2E6021FB5CCD6000CE67A /* HomeVC.swift */,
+				22F2E6001FB5CCD6000CE67A /* RightDrawerVC.swift */,
+				22F2E5FC1FB5CCD6000CE67A /* EditProfileVC.swift */,
+				22F2E5FB1FB5CCD6000CE67A /* SendVC.swift */,
+				22F2E5F11FB5CCD6000CE67A /* SendBitcoinVC.swift */,
+				22F2E5FA1FB5CCD6000CE67A /* ReceiveVC.swift */,
+				22F2E5F61FB5CCD6000CE67A /* ReceiveBitcoinVC.swift */,
+				22F2E5F31FB5CCD6000CE67A /* SendReceiveTransactionVC.swift */,
+				22F2E5FF1FB5CCD6000CE67A /* BidVC.swift */,
+				22F2E5EF1FB5CCD6000CE67A /* AskVC.swift */,
+				22F2E5F01FB5CCD6000CE67A /* BuyAndSellVC.swift */,
+				22F2E6061FB5CCD6000CE67A /* DepositeAndWithdrawVC.swift */,
+				22F2E5EA1FB5CCD6000CE67A /* BankAndPaytmDepositeVC.swift */,
+				22F2E6011FB5CCD6000CE67A /* DepositeWithdrawReceiptVC.swift */,
+				22F2E5EC1FB5CCD6000CE67A /* DepositeWithdrawInvoiceVC.swift */,
+				22F2E5F21FB5CCD6000CE67A /* MyAddressVC.swift */,
+				22F2E6031FB5CCD6000CE67A /* AccountVerificationVC.swift */,
+				22F2E6071FB5CCD6000CE67A /* AccountStatementVC.swift */,
+				22F2E5EE1FB5CCD6000CE67A /* TransactionsVC.swift */,
+				22F2E5F41FB5CCD6000CE67A /* SettingVC.swift */,
+				22F2E6051FB5CCD6000CE67A /* SupportVC.swift */,
+				22F2E5E91FB5CCD6000CE67A /* CreateTicketVC.swift */,
+				22F2E6041FB5CCD6000CE67A /* MyTicketVC.swift */,
+				22F2E5FD1FB5CCD6000CE67A /* MyTicketMessageVC.swift */,
+				22F2E5F91FB5CCD6000CE67A /* AboutUsVC.swift */,
+				22F2E5F81FB5CCD6000CE67A /* TeramsAndConditionVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		22F2E6081FB5CCD6000CE67A /* GlobalFunction */ = {
+			isa = PBXGroup;
+			children = (
+				22F2E6091FB5CCD6000CE67A /* SocketModel.swift */,
+				22F2E60A1FB5CCD6000CE67A /* GlobalFunction.swift */,
+				22F2E60B1FB5CCD6000CE67A /* Socket.swift */,
+			);
+			path = GlobalFunction;
+			sourceTree = "<group>";
+		};
+		86E0B4713D87A4FBA26CCA75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				901D5751203D93DD00BE8C31 /* AVFoundation.framework */,
+				225F80531FBEDDFF00933221 /* UIKit.framework */,
+				225F7FB11FBD70E100933221 /* libz.tbd */,
+				C454101D4F722B874FB0F78B /* Pods_NacPay.framework */,
+				1B0DD0207853835C9882CEE2 /* Pods_NacPayTests.framework */,
+				A06C0510C37D3EDADF3D35EB /* Pods_NacPayUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF30E99974DB00B28D2272AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1A325A52197C85283D4B6 /* Pods-NacPay.debug.xcconfig */,
+				0106D86992BD496344A772AE /* Pods-NacPay.release.xcconfig */,
+				2F6F1D03F254AC8C53CEBAE3 /* Pods-NacPayTests.debug.xcconfig */,
+				F6FA7E2EB6742DB9E99B84EA /* Pods-NacPayTests.release.xcconfig */,
+				C06EED66DBFD7E9EC22C6035 /* Pods-NacPayUITests.debug.xcconfig */,
+				3E33040FD41BCD91342C4398 /* Pods-NacPayUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +646,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 228268261FB5C27500B62854 /* Build configuration list for PBXNativeTarget "NacPay" */;
 			buildPhases = (
+				B04F7153D5B27BD831839C37 /* [CP] Check Pods Manifest.lock */,
 				228267FA1FB5C27500B62854 /* Sources */,
 				228267FB1FB5C27500B62854 /* Frameworks */,
 				228267FC1FB5C27500B62854 /* Resources */,
+				B09A3B072D7B0C0C47E995BF /* [CP] Embed Pods Frameworks */,
+				F00B82C047B1ECC54F246F48 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -142,16 +659,19 @@
 			);
 			name = NacPay;
 			productName = NacPay;
-			productReference = 228267FE1FB5C27500B62854 /* NacPay.app */;
+			productReference = 228267FE1FB5C27500B62854 /* NacCoin.app */;
 			productType = "com.apple.product-type.application";
 		};
 		228268111FB5C27500B62854 /* NacPayTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 228268291FB5C27500B62854 /* Build configuration list for PBXNativeTarget "NacPayTests" */;
 			buildPhases = (
+				8CE36617A8208B00CD103BDA /* [CP] Check Pods Manifest.lock */,
 				2282680E1FB5C27500B62854 /* Sources */,
 				2282680F1FB5C27500B62854 /* Frameworks */,
 				228268101FB5C27500B62854 /* Resources */,
+				E6DDA29AE84AACA17404465A /* [CP] Embed Pods Frameworks */,
+				1D4335576E7650595FE037D7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +687,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2282682C1FB5C27500B62854 /* Build configuration list for PBXNativeTarget "NacPayUITests" */;
 			buildPhases = (
+				ED20BDA3D6604BBE557C3230 /* [CP] Check Pods Manifest.lock */,
 				228268191FB5C27500B62854 /* Sources */,
 				2282681A1FB5C27500B62854 /* Frameworks */,
 				2282681B1FB5C27500B62854 /* Resources */,
+				15047717860E0F96658FFA3C /* [CP] Embed Pods Frameworks */,
+				4DD31A6DB3D5CAFFCFBF749F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,12 +711,21 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Maulik D'sai";
 				TargetAttributes = {
 					228267FD1FB5C27500B62854 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					228268111FB5C27500B62854 = {
 						CreatedOnToolsVersion = 9.0;
@@ -232,6 +764,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22CBB83E1FB5D482002DE2C8 /* Lato-Bold.ttf in Resources */,
+				22CBB83F1FB5D482002DE2C8 /* Lato-Black.ttf in Resources */,
+				22CBB8401FB5D482002DE2C8 /* Lato-Regular.ttf in Resources */,
+				22CBB8411FB5D482002DE2C8 /* Lato-Semibold.ttf in Resources */,
+				22CBB8421FB5D482002DE2C8 /* Lato-Heavy.ttf in Resources */,
+				223120421FC5961900B502F9 /* bg.png in Resources */,
+				903EACBE2045548E000C157C /* DASHBOARD.png in Resources */,
+				22CBB8431FB5D482002DE2C8 /* Lato-Light.ttf in Resources */,
+				22CBB8441FB5D482002DE2C8 /* Lato-Medium.ttf in Resources */,
+				22E5773B1FBC629E00DDD2AE /* splace.png in Resources */,
+				22CBB8451FB5D482002DE2C8 /* RadarMarkerView.xib in Resources */,
+				22C9F46A1FB6F0DF0004D789 /* text.png in Resources */,
+				22CBB8461FB5D482002DE2C8 /* IQKeyboardManager.bundle in Resources */,
+				900AD0522008E90000014D98 /* terms.pdf in Resources */,
 				2282680C1FB5C27500B62854 /* LaunchScreen.storyboard in Resources */,
 				228268091FB5C27500B62854 /* Assets.xcassets in Resources */,
 				228268071FB5C27500B62854 /* Main.storyboard in Resources */,
@@ -254,12 +800,268 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15047717860E0F96658FFA3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NacPayUITests/Pods-NacPayUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D4335576E7650595FE037D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NacPayTests/Pods-NacPayTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DD31A6DB3D5CAFFCFBF749F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NacPayUITests/Pods-NacPayUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CE36617A8208B00CD103BDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NacPayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B04F7153D5B27BD831839C37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NacPay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B09A3B072D7B0C0C47E995BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NacPay/Pods-NacPay-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${PODS_ROOT}/CitrusGraphics/Framework/graphics-sdk/CitrusGraphics.framework",
+				"${BUILT_PRODUCTS_DIR}/DYQRCodeDecoder/DYQRCodeDecoder.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MBCircularProgressBar/MBCircularProgressBar.framework",
+				"${PODS_ROOT}/PayUmoney_CoreSDK/CoreSDK/PayUMoneyCoreSDK.framework",
+				"${PODS_ROOT}/PayUmoney_PnP/PlugNPlay/PlugNPlay.framework",
+				"${BUILT_PRODUCTS_DIR}/QRCode/QRCode.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActionSheetPicker_3_0.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CitrusGraphics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DYQRCodeDecoder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBCircularProgressBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PayUMoneyCoreSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PlugNPlay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QRCode.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NacPay/Pods-NacPay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6DDA29AE84AACA17404465A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NacPayTests/Pods-NacPayTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED20BDA3D6604BBE557C3230 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NacPayUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F00B82C047B1ECC54F246F48 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NacPay/Pods-NacPay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		228267FA1FB5C27500B62854 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				228268041FB5C27500B62854 /* ViewController.swift in Sources */,
+				22CBB8961FB5D517002DE2C8 /* IQKeyboardManagerSwift.h in Sources */,
+				22CBB8811FB5D4F8002DE2C8 /* MMDrawerBarButtonItem.m in Sources */,
+				22CBB8821FB5D4F8002DE2C8 /* UIViewController+MMDrawerController.m in Sources */,
+				22CBB8831FB5D4F8002DE2C8 /* MMDrawerController.m in Sources */,
+				22CBB8841FB5D4F8002DE2C8 /* MMDrawerVisualState.m in Sources */,
+				22CBB8851FB5D4F8002DE2C8 /* Reachability.m in Sources */,
+				22CBB8861FB5D4F8002DE2C8 /* UIImage+WebP.m in Sources */,
+				22CBB8871FB5D4F8002DE2C8 /* MKAnnotationView+WebCache.m in Sources */,
+				22CBB8881FB5D4F8002DE2C8 /* SDWebImageManager.m in Sources */,
+				22CBB8891FB5D4F8002DE2C8 /* SDWebImageDecoder.m in Sources */,
+				22CBB88A1FB5D4F8002DE2C8 /* UIImageView+HighlightedWebCache.m in Sources */,
+				22CBB88B1FB5D4F8002DE2C8 /* SDWebImageDownloader.m in Sources */,
+				22CBB88C1FB5D4F8002DE2C8 /* UIImage+GIF.m in Sources */,
+				22CBB88D1FB5D4F8002DE2C8 /* UIImage+MultiFormat.m in Sources */,
+				22CBB88E1FB5D4F8002DE2C8 /* SDWebImageCompat.m in Sources */,
+				22CBB88F1FB5D4F8002DE2C8 /* SDWebImagePrefetcher.m in Sources */,
+				22CBB8901FB5D4F8002DE2C8 /* SDImageCache.m in Sources */,
+				22CBB8911FB5D4F8002DE2C8 /* SDWebImageDownloaderOperation.m in Sources */,
+				22CBB8921FB5D4F8002DE2C8 /* NSData+ImageContentType.m in Sources */,
+				228ACC431FC2ADE1007BA43E /* StructToJson.swift in Sources */,
+				22CBB8931FB5D4F8002DE2C8 /* UIImageView+WebCache.m in Sources */,
+				22CBB8941FB5D4F8002DE2C8 /* UIView+WebCacheOperation.m in Sources */,
+				22CBB8951FB5D4F8002DE2C8 /* UIButton+WebCache.m in Sources */,
+				22CBB8471FB5D4CC002DE2C8 /* APIConstant.swift in Sources */,
+				22CBB8481FB5D4CC002DE2C8 /* SocketModel.swift in Sources */,
+				22CBB8491FB5D4CC002DE2C8 /* GlobalFunction.swift in Sources */,
+				22CBB84A1FB5D4CC002DE2C8 /* Socket.swift in Sources */,
+				22CBB84B1FB5D4CC002DE2C8 /* NPPinCodeField.swift in Sources */,
+				22CBB84C1FB5D4CC002DE2C8 /* XYMarkerView.swift in Sources */,
+				22CBB84D1FB5D4CC002DE2C8 /* BalloonMarker.swift in Sources */,
+				22CBB84E1FB5D4CC002DE2C8 /* RadarMarkerView.swift in Sources */,
+				22CBB84F1FB5D4CC002DE2C8 /* Network.swift in Sources */,
+				22CBB8501FB5D4CC002DE2C8 /* InternetReachability.swift in Sources */,
+				22CBB8511FB5D4CC002DE2C8 /* IQTextView.swift in Sources */,
+				22CBB8521FB5D4CC002DE2C8 /* IQPreviousNextView.swift in Sources */,
+				22CBB8531FB5D4CC002DE2C8 /* IQTitleBarButtonItem.swift in Sources */,
+				22CBB8541FB5D4CC002DE2C8 /* IQBarButtonItem.swift in Sources */,
+				22CBB8551FB5D4CC002DE2C8 /* IQToolbar.swift in Sources */,
+				22CBB8561FB5D4CC002DE2C8 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				22CBB8571FB5D4CC002DE2C8 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				22CBB8581FB5D4CC002DE2C8 /* IQKeyboardManagerConstants.swift in Sources */,
+				22CBB8591FB5D4CC002DE2C8 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				22CBB85A1FB5D4CC002DE2C8 /* IQKeyboardManager.swift in Sources */,
+				22CBB85C1FB5D4CC002DE2C8 /* IQUIWindow+Hierarchy.swift in Sources */,
+				22CBB85D1FB5D4CC002DE2C8 /* IQUIScrollView+Additions.swift in Sources */,
+				22CBB85E1FB5D4CC002DE2C8 /* IQUIViewController+Additions.swift in Sources */,
+				22CBB85F1FB5D4CC002DE2C8 /* IQUITextFieldView+Additions.swift in Sources */,
+				22CBB8601FB5D4CC002DE2C8 /* IQUIView+Hierarchy.swift in Sources */,
+				22CBB8611FB5D4CC002DE2C8 /* IQNSArray+Sort.swift in Sources */,
+				22CBB8621FB5D4CC002DE2C8 /* CreateTicketVC.swift in Sources */,
+				22CBB8631FB5D4CC002DE2C8 /* BankAndPaytmDepositeVC.swift in Sources */,
+				22CBB8641FB5D4CC002DE2C8 /* IntroductionVC.swift in Sources */,
+				22CBB8651FB5D4CC002DE2C8 /* DepositeWithdrawInvoiceVC.swift in Sources */,
+				22CBB8661FB5D4CC002DE2C8 /* VerifyCodeVC.swift in Sources */,
+				22CBB8671FB5D4CC002DE2C8 /* TransactionsVC.swift in Sources */,
+				22CBB8681FB5D4CC002DE2C8 /* AskVC.swift in Sources */,
+				22CBB8691FB5D4CC002DE2C8 /* BuyAndSellVC.swift in Sources */,
+				22CBB86A1FB5D4CC002DE2C8 /* SendBitcoinVC.swift in Sources */,
+				22CBB86B1FB5D4CC002DE2C8 /* MyAddressVC.swift in Sources */,
+				22CBB86C1FB5D4CC002DE2C8 /* SendReceiveTransactionVC.swift in Sources */,
+				22CBB86D1FB5D4CC002DE2C8 /* SettingVC.swift in Sources */,
+				22CBB86E1FB5D4CC002DE2C8 /* VerifyCompleteVC.swift in Sources */,
+				22CBB86F1FB5D4CC002DE2C8 /* ReceiveBitcoinVC.swift in Sources */,
+				22CBB8701FB5D4CC002DE2C8 /* SetupPINVC.swift in Sources */,
+				22CBB8711FB5D4CC002DE2C8 /* TeramsAndConditionVC.swift in Sources */,
+				22CBB8721FB5D4CC002DE2C8 /* AboutUsVC.swift in Sources */,
+				22CBB8731FB5D4CC002DE2C8 /* ReceiveVC.swift in Sources */,
+				22CBB8741FB5D4CC002DE2C8 /* SendVC.swift in Sources */,
+				22CBB8751FB5D4CC002DE2C8 /* EditProfileVC.swift in Sources */,
+				22CBB8761FB5D4CC002DE2C8 /* MyTicketMessageVC.swift in Sources */,
+				22CBB8771FB5D4CC002DE2C8 /* VerifyPhoneVC.swift in Sources */,
+				22CBB8781FB5D4CC002DE2C8 /* BidVC.swift in Sources */,
+				22CBB8791FB5D4CC002DE2C8 /* RightDrawerVC.swift in Sources */,
+				22CBB87A1FB5D4CC002DE2C8 /* DepositeWithdrawReceiptVC.swift in Sources */,
+				22CBB87B1FB5D4CC002DE2C8 /* HomeVC.swift in Sources */,
+				22CBB87C1FB5D4CC002DE2C8 /* AccountVerificationVC.swift in Sources */,
+				22CBB87D1FB5D4CC002DE2C8 /* MyTicketVC.swift in Sources */,
+				22CBB87E1FB5D4CC002DE2C8 /* SupportVC.swift in Sources */,
+				22CBB87F1FB5D4CC002DE2C8 /* DepositeAndWithdrawVC.swift in Sources */,
+				22CBB8801FB5D4CC002DE2C8 /* AccountStatementVC.swift in Sources */,
+				22F2E5021FB5CC75000CE67A /* Try.m in Sources */,
 				228268021FB5C27500B62854 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,7 +1165,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -414,7 +1216,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -424,34 +1226,132 @@
 		};
 		228268271FB5C27500B62854 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEC1A325A52197C85283D4B6 /* Pods-NacPay.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = NacPay/NacCoin.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 24LJGZCT2C;
+				ENABLE_TESTABILITY = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_NO_COMMON_BLOCKS = NO;
 				INFOPLIST_FILE = NacPay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.md.NacPay;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NacPay/ThirdParty/iOS-SDK-master",
+					"$(PROJECT_DIR)/NacPay/ThirdParty/iOS-SDK-master/CB",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"ActionSheetPicker_3_0\"",
+					"-framework",
+					"\"Charts\"",
+					"-framework",
+					"\"DYQRCodeDecoder\"",
+					"-framework",
+					"\"MBCircularProgressBar\"",
+					"-framework",
+					"\"QRCode\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"SocketIO\"",
+					"-framework",
+					"\"Starscream\"",
+					"-framework",
+					"\"Toast_Swift\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.naccoin;
+				PRODUCT_MODULE_NAME = NacCoin;
+				PRODUCT_NAME = NacCoin;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "NacPay/NacPay-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		228268281FB5C27500B62854 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0106D86992BD496344A772AE /* Pods-NacPay.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = NacPay/NacCoin.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 24LJGZCT2C;
+				ENABLE_TESTABILITY = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_NO_COMMON_BLOCKS = NO;
 				INFOPLIST_FILE = NacPay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.md.NacPay;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NacPay/ThirdParty/iOS-SDK-master",
+					"$(PROJECT_DIR)/NacPay/ThirdParty/iOS-SDK-master/CB",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"ActionSheetPicker_3_0\"",
+					"-framework",
+					"\"Charts\"",
+					"-framework",
+					"\"DYQRCodeDecoder\"",
+					"-framework",
+					"\"MBCircularProgressBar\"",
+					"-framework",
+					"\"QRCode\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"SocketIO\"",
+					"-framework",
+					"\"Starscream\"",
+					"-framework",
+					"\"Toast_Swift\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.naccoin;
+				PRODUCT_MODULE_NAME = NacCoin;
+				PRODUCT_NAME = NacCoin;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "NacPay/NacPay-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		2282682A1FB5C27500B62854 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F6F1D03F254AC8C53CEBAE3 /* Pods-NacPayTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +1368,7 @@
 		};
 		2282682B1FB5C27500B62854 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6FA7E2EB6742DB9E99B84EA /* Pods-NacPayTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +1385,7 @@
 		};
 		2282682D1FB5C27500B62854 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C06EED66DBFD7E9EC22C6035 /* Pods-NacPayUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -493,12 +1395,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NacPay;
+				TEST_TARGET_NAME = NacCoin;
 			};
 			name = Debug;
 		};
 		2282682E1FB5C27500B62854 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E33040FD41BCD91342C4398 /* Pods-NacPayUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,7 +1411,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NacPay;
+				TEST_TARGET_NAME = NacCoin;
 			};
 			name = Release;
 		};
